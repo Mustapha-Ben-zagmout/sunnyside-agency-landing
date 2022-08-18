@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Fraunces', serif;
+}
+
+.image{
+    background-image: url('https://sunnyside-agency-landing-page-omega.vercel.app/images/desktop/image-header.jpg');
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 90%;
+    margin: auto;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 40px;
+}
+
+.nav-item a{
+    font-size: 17px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.logo a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.we-are{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    margin-top: 90px;
+}
+.flesh{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.nav-item:last-child a{
+    background-color: white;
+    color: hsl(212, 27%, 19%);
+    padding:10px 18px;
+    border-radius: 22px;
+}
+.nav-item:last-child a:hover{
+    background-color:hsla(0, 0%, 100%, 0.37);;
+    color: hsl(0, 0%, 100%);
+    transition: all 0.3s ease-in;
+}
+
+.transform{
+    display:flex;
+}
+
+.eag {
+    width: 50%;
+    margin-top: -1px;
+}
+.eag img {
+  width:100%;
+}
+.left{
+    width:50%;
+}
+
+.spacing {
+    width:70%;
+    margin: auto;
+    margin-top:90px;
+}
+.left h1{
+    margin-bottom: 35px;
+    font-family:'Fraunces', serif;
+    font-size: 50px;
+    color:#23303E;
+}
+.left p{
+    color: #23303E;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 1.9;
+    margin-bottom: 30px;
+}
+.left a{
+    color: #23303E;
+    font-size: 18px;
+    font-family:'Fraunces', serif;
+    text-decoration: none;
+    font-weight: 900;
+    z-index: 3;
+    position: relative;
+}
+
+.line {
+    width: 135px;
+    height: 8px;
+    background-color: yellow;
+    border: 0;
+    border-radius: 12px;
+    position: absolute;
+    margin-top:-8px;
+    margin-left: -8px;
+    z-index: 2;
+}
+.line:hover {
+      background-color:rgb(219, 177, 60);
+      transition: all 0.3s ease-in;
+}
+
+.line-pink{
+    width: 135px;
+    height: 8px;
+    background-color: rgb(238, 183, 202);
+    border: 0;
+    border-radius: 12px;
+    position: absolute;
+    margin-top:-8px;
+    margin-left: -8px;
+    z-index: 2;
+}
+
+.line-pink:hover{
+    background-color: rgb(232, 56, 85) ;
+    transition: all 0.3s ease-in;
+}
+
+.contenu{
+    margin-top: -200px;
+}
+.contenu h1{
+    margin-bottom: 35px;
+    font-family:'Fraunces', serif;
+    font-size: 30px;
+    color:#49536B;
+    text-align: center;
+}
+.contenu p{
+      font-size: 13px;
+      line-height: 1.9;
+      font-family: 'Barlow', sans-serif;
+      color: #25564B;
+      text-align: center;
+      width: 80%;
+      margin: auto;
+}
+.frute{
+    display: flex;
+    margin-top: -4px;
+    width: 100%;
+}
+.eag2 img{
+    width: 100%;
+}
+.left-frute{
+    width: 50%;
+}
+.right-frute{
+    width: 50%;
+}
+.client h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 19px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+}
+.doctors{
+    display: flex;
+    margin-top: 90px !important;
+    width:85%;
+    margin: auto;
+    gap:30px;
+}
+
+.Emily img{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.Thomas img{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.Jennie img{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.title1 {
+    font-size: 17px;
+    text-align: center;
+    width: 85%;
+    line-height: 1.9;
+    color: #23303E;
+    font-weight: 800;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+.doctors h2{
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.galery-picture{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+}
+.galery-picture img{
+    width: 100%;
+    margin-top: 30%;
+}
+.background1{
+    background-color: #68B1A2;
+}
+
+.sunnside {
+    padding-top: 250px;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+.nav-menu1{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+}
+
+.nav-item1 {
+   list-style:none;
+   
+}
+
+.nav-item1 a {
+    text-decoration: none;
+    color: #21473f;
+    font-size:20px;
+    font-weight: 700;
+
+}
+.nav-item1 a:hover{
+  color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 30px; 
+    margin-bottom: 40px;
+}
+.icons img:hover{
+    color: white;
+}
+
+.copy {
+    text-align: center;
+    padding-bottom: 30px;
+    color:black;
+    font-weight: 700;
+
+}
+.copy a{
+    text-decoration: none;
+    color: #21473f;
+}
+.copy a:hover{
+    color:white;
+}
